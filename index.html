@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
@@ -23,20 +22,18 @@
   </head>
 
   <body>
-   
+    
     <div class="shell">
 
       <header>
         <span class="ribbon-outer">
           <span class="ribbon-inner">
-          
             <h1>{{ site.title | default: site.github.repository_name }}</h1>
             <h2>{{ site.description | default: site.github.project_tagline }}</h2>
           </span>
           <span class="left-tail"></span>
           <span class="right-tail"></span>
         </span>
-  
       </header>
 
       {% if site.show_downloads %}
@@ -51,71 +48,29 @@
           </span>
         </div>
       {% endif %}
-    
+
 
       <span class="banner-fix"></span>
 
 
       <section id="main_content">
-         <body>
-  
-    
-   
-   <header>
-      <h1>
-        Welcome
         <h2>
-          Login
-          <img
-            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAACfUlEQVRIS6XWTahXVRQF8J8hSYmBTcRIQoVq0iRRgzAKgogS0RCyzAykBymJT4w+rLQsQvEL6uGTwNQ0IQofFCkEik2MsIkTC9LATJw0SCyMKFmPc+Hv5d7/hecdnr3PWvvsj7XvON3fzZiJe3F3cf8ZZ/AL/ukHMa7FmPPpeBnP4fYWvz+wHzvwa5NPE8FEDGIdJnU/cNTjMrZgG6703qkT3IXtWNgCfLKcP9Bi/xxrcKGy9xJMwTAW1C7/hE34An8X2y14CutxT81/BAO4lPOKIBc2Y1XN+XusxKmWiGfhI8yt2T/EKwmoIkjUKVY950txoKMOz+LTmk9qkuYYCcHkkprFNafjyOXfOwjuKEE8XPNLPQZC8CC+aYj+Y6zGXx0Et2InVjS84vEQvIb3G0BulCCQr4dgV6l6neNGUxS84RAcwWMtaUihUuT/+0x86pQGafqOdhGMtU0rslGCr/BEjf6H0t93Ygk+aBm0V/EZfivzMruG83UIMigv9Ri+wwtFKWN/BBswD71SEb+cHyspjOLuKX4V3FAAoh0RqeqLBHxZi+QmTCsKG9M5nMd/Nb9F5aXV8WAI5uAwpuJbLMPFjt5vMwdjHx4tGPNDEHmOdiwvSpq89l0ifciznFKvZOWTaFulRQ/hUGm3N/DvGF8wHu8VHXoaJyqCGNYi4Cn4wYb8dnGmTs9gqJBsTaC9+yCpimRnuEK0G1e7UIt9Al4swBm6SPXoZqtvtOzed8srMh8b8WOf1yTq+/E2nizRv4ns6tGvaScnmrTqW2Vbpd/TtqdxttybgfuQtsx8ZOu9U1r0ule3/VUE57ayD55v2FhVgJGSvUWv/mxK5zXQy4Xeb0nQ2wAAAABJRU5ErkJggg=="
-          />
-        </h2>
-      </h1>
-      <h3>
-        Please Login Below
-      </h3>
-      <h4>Username </h4>
-      <p>
+        Please Login or Register!
+      </h2>
+        
         <form>
-        
-          <input
-          name="gold"
-          aria-label="a new Name"
-          type="text"
-          maxlength="100"
-          placeholder="Username"/>
-          
-        
+          <button>
+            <a href="login.html">Login</a>
+          </button>
+          <p></p>
+          <button>
+            <a href="register.html">Register </a>
+          </button>
+          <p></p>
+           <button>
+            <a href="COVID.html">COVID-19</a>
+          </button>
         </form>
-      </p>
-      
-      
-          
-      <h4> Password </h4>
-      <p>
-        <form>
-        
-          <input
-          name="gold"
-          aria-label="a new Name"
-          type="text"
-          maxlength="100"
-          placeholder="Password"/>
-          
-        
-        </form>
-      </p>
-    
-      
-      
-      
-      <button id="login-submit">
-        <a href="mainpage.html">Submit</a></button>
-        <button id="Back">
-        <a href="index.html">Back</a></button> 
-    </header>
-    <h5> </h5>
-  </body>
       </section>
 
       <footer>
@@ -130,8 +85,7 @@
           <span class="right-tail"></span>
         
       </footer>
-     
-    
+
     </div>
 
     {% if site.google_analytics %}
@@ -145,7 +99,5 @@
       </script>
     {% endif %}
   </body>
-  <script>(function(d){var s = d.createElement("script");s.setAttribute("data-account", "wP762pt1lN");s.setAttribute("src", "https://cdn.userway.org/widget.js");(d.body || d.head).appendChild(s);})(document)</script><noscript>Please ensure Javascript is enabled for purposes of <a href="https://userway.org">website accessibility</a></noscript>
-
 </html>
 
