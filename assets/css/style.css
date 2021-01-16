@@ -1,0 +1,11 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+button {
+  color: black;
+  font-size: 110%;
+  background: red;
+  text-align: center;
+}
